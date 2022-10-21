@@ -1,6 +1,6 @@
     .header {
         height: 100vh;
-        background-image: url('assets/imagenes/imagen-1.jpg');
+        background-image: url('../imagenes/imagen-1.jpg');
         background-size: cover;
     }
 
@@ -157,7 +157,7 @@
         align-items: center;
         color: rgb(255, 255, 255);
         height: 60px;
-        background: url('assets/imagenes/bg.jpg');
+        background: url('../imagenes/bg.jpg');
     }
 
     @media (min-width: 321px) and (max-width: 425px) {
