@@ -4,11 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Pattaya&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/estilos/reset.css">
+    <link rel="stylesheet" href="assets/estilos/style.css">
     <title>PeluQ´arte</title>
 </head>
 
 <body>
-
+    <header class="header">
+        <div class="header_contenedor">
+            <img src="/assets/imagenes/logo.png" alt="Logo PeluQ´arte" class="logo">
+            <ul class="navegador">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Precios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="nosotros contenedor">
+            <h1 class="h1">Sobre Nosotros</h1>
+            <div class="contenedor__nosotros">
+                <img src="/assets/imagenes/00001.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis excepturi omnis voluptate
+                    ex ipsum culpa, debitis ipsa minima similique? Temporibus est numquam iste repudiandae et, debitis
+                    ut harum. Odit.</p>
+            </div>
+            <div class="contenedor__nosotros">
+                <img src="/assets/imagenes/10100.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam, repudiandae quis provident autem
+                    dicta sequi. Laboriosam odit, cum architecto veritatis sit exercitationem! Deleniti, voluptate harum
+                    fugit rem quae corrupti.</p>
+            </div>
+        </section>
+        <section class="peluqueros contenedor">
+            <div class="contenedor__peluqeros">
+                <h2 class="h1">Nuestros Peluqueros</h2>
+                <div class="peluquero">
+                    <p>Nombre Apellido</p>
+                    <img src="/assets/imagenes/santi.jpg" alt="">
+                </div>
+                <div class="peluquero">
+                    <p>Nombre Apellido</p>
+                    <img src="/assets/imagenes/santi.jpg" alt="">
+                </div>
+                <div class="peluquero">
+                    <p>Nombre Apellido</p>
+                    <img src="/assets/imagenes/santi.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="precios contenedor">
+            <div class="contenedor__precios">
+                <h3 class="h1">Nuestros Precios</h3>
+                <div class="caja__precios">
+                    <p>Cabello</p><img src="/assets/imagenes/cabello.png" alt="Cabello">
+                    <p>$500</p>
+                </div>
+                <div class="caja__precios">
+                    <p>Barba</p><img src="/assets/imagenes/barba.png" alt="Barba">
+                    <p>$500</p>
+                </div>
+                <div class="caja__precios">
+                    <p>Cabello + Barba</p><img src="/assets/imagenes/cabello+barba.png" alt="Cabello+Barba">
+                    <p>$500</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor__contacto">
+            <div class="horarios">
+                <h5 class="h1">Nuestros Horarios</h5>
+                <ul class="lista__dias">
+                    <li>Lunes</li>
+                    <li>Martes</li>
+                    <li>Miercoles</li>
+                    <li>Jueves</li>
+                    <li>Viernes</li>
+                    <li>Sabado</li>
+                </ul>
+            </div>
+        </section>
+        <section class="contenedor_mapa">
+            <div class="container">
+                <h4>Como encontrarnos</h4>
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.226487937335!2d-68.3440465496231!3d-34.623716365966885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679080276c0432b%3A0xff7bb0da78c321b5!2sPeluQ&#39;arte%20Barber!5e0!3m2!1ses-419!2sar!4v1666311266405!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados PeluQ´arte</p>
+    </footer>
 </body>
 
 </html>

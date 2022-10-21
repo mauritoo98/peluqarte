@@ -1,0 +1,272 @@
+    .header {
+        height: 100vh;
+        background-image: url('/assets/imagenes/imagen-1.jpg');
+        background-size: cover;
+    }
+
+    .header_contenedor {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+
+
+    .navegador a {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .navegador li {
+        padding: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .contenedor {
+        height: 200vh;
+        width: 80%;
+        margin: auto;
+    }
+
+    .main {
+        background-color: #f1efef;
+    }
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contenedor__nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .contenedor__nosotros img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor__peluqeros {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+        font-family: 'Pattaya', sans-serif;
+        font-weight: bold;
+    }
+
+    .peluquero {
+        height: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .peluquero img {
+        height: 250px;
+    }
+
+    .contenedor__precios {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .caja__precios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .caja__precios img {
+        height: 200px;
+        width: 150px;
+    }
+
+    .horarios {
+        width: 80%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .lista__dias {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .contenedor_mapa {
+        height: 80vh;
+    }
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container h4 {
+        display: block;
+        width: 80%;
+        margin: auto;
+        font-size: 1.5rem;
+        font-family: 'Pattaya', sans-serif;
+        font-weight: bold;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        height: 60px;
+        background: url('/assets/imagenes/bg.jpg');
+    }
+
+    @media (min-width: 321px) and (max-width: 425px) {
+        .peluquero img {
+            margin: auto;
+            height: 270px;
+            width: 240px;
+        }
+    }
+
+    @media (min-width: 426px) and (max-width: 768px) {
+        .header {
+            height: 100vh;
+        }
+
+        .header_contenedor {
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .logo {
+            height: 80px;
+            width: 80px;
+        }
+
+        .navegador {
+            display: flex;
+        }
+
+        .navegador a {
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+
+        }
+
+        .navegador li {
+            border-bottom: 0px;
+        }
+
+        .nosotros {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px 0px;
+        }
+
+        .contenedor__nosotros img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .peluquero img {
+            height: 270px;
+            width: 260px;
+            margin: auto;
+        }
+
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+
+        .header_contenedor {
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo {
+            height: 130px;
+            width: 130px;
+        }
+
+
+        .navegador a {
+            font-size: 1.3rem;
+            text-decoration: none;
+        }
+
+        .navegador {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .navegador li {
+            border-bottom: none;
+        }
+
+        .contenedor {
+            height: 100vh;
+            width: 80%;
+            margin: auto;
+        }
+
+        .nosotros {
+            height: 100%;
+            padding: 20px;
+        }
+
+        .contenedor__nosotros {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contenedor__nosotros img {
+            width: 25%;
+            height: 25%;
+        }
+    }
